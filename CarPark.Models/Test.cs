@@ -11,6 +11,7 @@ namespace CarPark.Models
         public string NameSurname { get; set; }
         public int Age { get; set; }
         public ICollection<Address> Address { get; set; }
+
     }
 
     public class Address
