@@ -1,0 +1,40 @@
+2023-08-25 23:49:56.404 +04:00 [INF] User profile is available. Using 'C:\Users\tahir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-25 23:49:56.470 +04:00 [INF] Now listening on: http://localhost:5286
+2023-08-25 23:49:56.473 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-25 23:49:56.475 +04:00 [INF] Hosting environment: Development
+2023-08-25 23:49:56.477 +04:00 [INF] Content root path: C:\Users\tahir\OneDrive\Masaüstü\car-park-management-system\CarPark.User
+2023-08-25 23:49:56.760 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/ - -
+2023-08-25 23:49:56.781 +04:00 [WRN] Failed to determine the https port for redirect.
+2023-08-25 23:49:56.796 +04:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-08-25 23:49:56.816 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2023-08-25 23:49:56.820 +04:00 [INF] Bu menim ilk logumdur
+2023-08-25 23:49:56.827 +04:00 [INF] Executing ViewResult, running view Index.
+2023-08-25 23:49:56.929 +04:00 [INF] Executed ViewResult - view Index executed in 104.3018ms.
+2023-08-25 23:49:56.935 +04:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 116.1665ms
+2023-08-25 23:49:56.938 +04:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2023-08-25 23:49:56.948 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-08-25 23:49:56.948 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-08-25 23:49:56.948 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/CarPark.User.styles.css?v=LO5gLJJqnLGpFL2RNUExJnT0xJuOXkvJ7PcwvznPuXc - -
+2023-08-25 23:49:56.950 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/ - - - 200 - text/html;+charset=utf-8 191.6662ms
+2023-08-25 23:49:56.963 +04:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-08-25 23:49:56.963 +04:00 [INF] The file /css/site.css was not modified
+2023-08-25 23:49:56.963 +04:00 [INF] The file /CarPark.User.styles.css was not modified
+2023-08-25 23:49:56.965 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 16.9488ms
+2023-08-25 23:49:56.966 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 304 - text/css 18.1535ms
+2023-08-25 23:49:56.967 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/CarPark.User.styles.css?v=LO5gLJJqnLGpFL2RNUExJnT0xJuOXkvJ7PcwvznPuXc - - - 304 - text/css 19.5264ms
+2023-08-25 23:49:56.971 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/lib/jquery/dist/jquery.min.js - -
+2023-08-25 23:49:56.971 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-08-25 23:49:56.973 +04:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-08-25 23:49:56.973 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-08-25 23:49:56.974 +04:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-08-25 23:49:56.975 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 3.5764ms
+2023-08-25 23:49:56.976 +04:00 [INF] The file /js/site.js was not modified
+2023-08-25 23:49:56.977 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 5.8847ms
+2023-08-25 23:49:56.978 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/_framework/aspnetcore-browser-refresh.js - -
+2023-08-25 23:49:56.979 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 6.4184ms
+2023-08-25 23:49:56.983 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/_vs/browserLink - -
+2023-08-25 23:49:56.983 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 5.2063ms
+2023-08-25 23:49:56.997 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6971ms
+2023-08-25 23:49:57.012 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5286/favicon.ico - -
+2023-08-25 23:49:57.013 +04:00 [INF] The file /favicon.ico was not modified
+2023-08-25 23:49:57.015 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5286/favicon.ico - - - 304 - image/x-icon 3.2316ms
