@@ -66,7 +66,12 @@ namespace CarPark.User.Controllers
             //{
             //    Console.WriteLine(ex);
             //}
-            _logger.LogInformation("Bu menim ilk logumdur");
+            var customer = new Customer
+            {
+                Id = 1,
+                NameSurname = "Tahir",
+                Age = 28
+            };
             return View();
         }
 

@@ -2,6 +2,7 @@ using Serilog;
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .WriteTo.File("log.txt")
+    .WriteTo.Seq("http://localhost:5341/")
     .CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog();
